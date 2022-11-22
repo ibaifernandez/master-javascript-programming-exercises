@@ -1,41 +1,16 @@
-<!-- hide -->
 # Master Javascript tutorial at 4Geeks Academy
 
-> By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
-<!-- endhide -->
+> Proposed by [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/master-javascript-programming-exercises/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
-**160 exercises about Javascript.**
+> Resolved by [Ibai Fernández](https://ibaifernandez.github.io)
 
-Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
+**160 Javascript exercises**
 
-<!-- hide -->
-
-## One click installation:
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/master-javascript-programming-exercises.git)
-
-## Local Installation (only if needed)
-
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
-
-```sh
-$ npm i learnpack -g
-$ learnpack plugins:install learnpack-node
-```
-
-2. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
-
-```sh
-$ npm i jest@24.8.0 -g
-$ learnpack start
-```
-
-Note: The exercises have automatic grading but its very rigid and string, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
-<!-- endhide -->
+*Exercises have automatic grading but its very rigid and string. My recommendation is to ignore the tests and to use them only as a recommendation or you can get frustrated.*
 
 ## How are the exercises organized?
 
-Each exercise is a small react application containing the following files:
+Each exercise is a small React application containing the following files:
 
 1. **app.js**: Represents the entry python file that will be executed by the computer.
 2. **README.md**: Contains exercise instructions.
@@ -43,7 +18,7 @@ Each exercise is a small react application containing the following files:
 
 ## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Thanks goes to these wonderful people:
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
 
