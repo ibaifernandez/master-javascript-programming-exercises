@@ -1,3 +1,3 @@
 function computeAreaOfACircle(radius) {
-    // your code here
+    return 3.141592653589793238 * radius * radius;
 }

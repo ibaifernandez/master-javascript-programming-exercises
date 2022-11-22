@@ -1,4 +1,4 @@
 function getAllLetters(str) {
-    // your code here
-    
+    const newArr = str.split('');
+    return newArr;    
 }
