@@ -3,7 +3,13 @@ let obj = {
     b: 2,
     c: 'montana'
 }
+
 function removeNumbersLargerThan(num, obj) {
-    // your code here
-    
+    for (let property in obj) {
+      console.log(obj[property]);
+      if (obj[property] > num) {
+        delete obj[property];
+      }
+    }    
+  return obj;
 }

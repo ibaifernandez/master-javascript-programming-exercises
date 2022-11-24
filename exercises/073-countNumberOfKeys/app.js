@@ -8,7 +8,10 @@ let obj = {
 }
 
 function countNumberOfKeys(obj) {
-    // your code here
-   
+    let counter = 0;
+    for (let property in obj) {
+        counter++;
+    }   
+    return counter
 }
 console.log(countNumberOfKeys(obj))
