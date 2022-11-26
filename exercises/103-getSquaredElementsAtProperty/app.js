@@ -3,7 +3,13 @@ let obj = {
 };
 
 function getSquaredElementsAtProperty(obj, key) {
-    // your code here
+  if (!Array.isArray(obj.key)) {
+    return [];
+  } else if (obj.key.length === 0) {
+    return [];
+  } else {
+    return obj.key.map(x => x * x);
+    }
 }
 
 let output = getSquaredElementsAtProperty(obj, 'key');
