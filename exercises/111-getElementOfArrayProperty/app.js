@@ -3,6 +3,9 @@ let obj = {
 };
 
 function getElementOfArrayProperty(obj, key, index) {
-    // your code here
-
+    if (typeof obj.key === 'undefined') {
+        return undefined;
+    } else {
+        return obj.key[index];
+}
 }
