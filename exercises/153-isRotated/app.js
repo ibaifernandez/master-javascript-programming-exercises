@@ -1,6 +1,10 @@
 function isRotated(str1, str2) {
-    // your code here
+    const str1Arr = str1.split('')
+    const str2Arr = str2.split('')
+    console.log(str1Arr)
+    console.log(str2Arr)
+
 }
 
-console.log(isRotated('hello world', 'orldhello w')) // => true
-console.log(isRotated('hello world', 'omrel wp')) // => false
+let output = isRotated("Hello World", "orldHello W")
+console.log(output) // true
