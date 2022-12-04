@@ -1,12 +1,21 @@
+let numbers = [6, 5, 0, 8, 3, 5, 9, 1, 7, 2];
+
 function PhoneNumberFormatter(numbers) {
   this.numbers = numbers;
 }
 
 PhoneNumberFormatter.prototype.render = function() {
   let string = '';
-  // your code here
+  if (numbers.length !== 10) {
+    return "Fuck off!"
+  } else {
+    string = this.numbers.join('');
+    console.log(numbers);
+  }
   return string;
 };
+
+console.log(PhoneNumberFormatter.render())
 
 PhoneNumberFormatter.prototype.getAreaCode = function() {
   // your code here

@@ -1,10 +1,8 @@
 function isRotated(str1, str2) {
-    const str1Arr = str1.split('')
-    const str2Arr = str2.split('')
-    console.log(str1Arr)
-    console.log(str2Arr)
-
+    let repeated1stStr = str1 + str1;
+    return repeated1stStr.includes(str2) ? true : false
 }
 
-let output = isRotated("Hello World", "orldHello W")
+
+let output = isRotated("Learning is fun", "Lr aen ngiiufs")
 console.log(output) // true
